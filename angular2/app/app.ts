@@ -34,7 +34,7 @@ class MyAppComponent implements AfterViewChecked {
 
     constructor() {
     }
-    buildData(count: number = 1000): Array<string> {
+    buildData(count: number = 10000): Array<string> {
         var adjectives = ["pretty", "large", "big", "small", "tall", "short", "long", "handsome", "plain", "quaint", "clean", "elegant", "easy", "angry", "crazy", "helpful", "mushy", "odd", "unsightly", "adorable", "important", "inexpensive", "cheap", "expensive", "fancy"];
         var colours = ["red", "yellow", "blue", "green", "pink", "brown", "purple", "brown", "white", "black", "orange"];
         var nouns = ["table", "chair", "house", "bbq", "desk", "car", "pony", "cookie", "sandwich", "burger", "pizza", "mouse", "keyboard"];
@@ -53,7 +53,7 @@ class MyAppComponent implements AfterViewChecked {
     }
 
     _random(max: number) {
-        return Math.round(Math.random()*1000)%max;
+        return Math.round(Math.random()*10000)%max;
     }
 
     select(item, event) {
@@ -79,7 +79,7 @@ class MyAppComponent implements AfterViewChecked {
 
     add(event) {
         startMeasure("add");
-        this.data = this.data.concat(this.buildData(10));
+        this.data = this.data.concat(this.buildData(100));
         this.printDuration();
     }
 

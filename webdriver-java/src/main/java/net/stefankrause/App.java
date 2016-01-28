@@ -25,8 +25,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class App {
 
-    public static final int WARMUP_COUNT = 5;
-    private final static int REPEAT_RUN = 12;
+    public static final int WARMUP_COUNT = 1;
+    private final static int REPEAT_RUN = 5;
     private final static int DROP_WORST_COUNT = 2;
     private final static String frameworks[] = {"angular", "angular2","aurelia", "ember/dist", "mithril", "ractive", "react",  "vidom", "vue"};
     private final static Bench[] benches = new Bench[] {new BenchRun(), new BenchRunHot(), new BenchUpdate(), new BenchSelect(), new BenchRemove()};

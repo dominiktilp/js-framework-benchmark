@@ -1,0 +1,50 @@
+create 1000 rows:
+angular: DoubleSummaryStatistics{count=3, sum=991,887000, min=316,161000, average=330,629000, max=351,076000}
+angular2: DoubleSummaryStatistics{count=3, sum=884,410000, min=246,516000, average=294,803333, max=336,552000}
+aurelia: DoubleSummaryStatistics{count=3, sum=759,143000, min=242,429000, average=253,047667, max=258,703000}
+ember/dist: DoubleSummaryStatistics{count=3, sum=2787,558000, min=905,485000, average=929,186000, max=949,103000}
+mithril: DoubleSummaryStatistics{count=3, sum=1088,075000, min=354,957000, average=362,691667, max=367,883000}
+ractive: DoubleSummaryStatistics{count=3, sum=1976,710000, min=641,198000, average=658,903333, max=668,363000}
+react: DoubleSummaryStatistics{count=3, sum=1924,289000, min=557,585000, average=641,429667, max=699,063000}
+vidom: DoubleSummaryStatistics{count=3, sum=537,140000, min=175,759000, average=179,046667, max=182,334000}
+vue: DoubleSummaryStatistics{count=3, sum=966,222000, min=318,205000, average=322,074000, max=324,164000}
+update 1000 rows (hot):
+angular: DoubleSummaryStatistics{count=3, sum=1052,384000, min=342,479000, average=350,794667, max=355,238000}
+angular2: DoubleSummaryStatistics{count=3, sum=1152,529000, min=294,842000, average=384,176333, max=531,340000}
+aurelia: DoubleSummaryStatistics{count=3, sum=590,986000, min=172,463000, average=196,995333, max=217,494000}
+ember/dist: DoubleSummaryStatistics{count=3, sum=2518,259000, min=803,532000, average=839,419667, max=866,785000}
+mithril: DoubleSummaryStatistics{count=3, sum=967,954000, min=297,219000, average=322,651333, max=337,855000}
+ractive: DoubleSummaryStatistics{count=3, sum=397,750000, min=118,730000, average=132,583333, max=144,880000}
+react: DoubleSummaryStatistics{count=3, sum=935,453000, min=301,245000, average=311,817667, max=317,262000}
+vidom: DoubleSummaryStatistics{count=3, sum=586,459000, min=187,239000, average=195,486333, max=201,731000}
+vue: DoubleSummaryStatistics{count=3, sum=1137,462000, min=365,739000, average=379,154000, max=392,744000}
+partial update:
+angular: DoubleSummaryStatistics{count=3, sum=113,077000, min=33,096000, average=37,692333, max=42,850000}
+angular2: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+aurelia: DoubleSummaryStatistics{count=3, sum=227,559000, min=57,453000, average=75,853000, max=98,101000}
+ember/dist: DoubleSummaryStatistics{count=3, sum=832,365000, min=254,519000, average=277,455000, max=293,521000}
+mithril: DoubleSummaryStatistics{count=3, sum=322,740000, min=96,474000, average=107,580000, max=120,246000}
+ractive: DoubleSummaryStatistics{count=3, sum=201,214000, min=63,488000, average=67,071333, max=69,897000}
+react: DoubleSummaryStatistics{count=3, sum=134,367000, min=37,969000, average=44,789000, max=53,312000}
+vidom: DoubleSummaryStatistics{count=3, sum=113,626000, min=30,829000, average=37,875333, max=49,343000}
+vue: DoubleSummaryStatistics{count=3, sum=123,589000, min=37,415000, average=41,196333, max=43,801000}
+select row:
+angular: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+angular2: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+aurelia: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+ember/dist: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+mithril: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+ractive: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+react: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+vidom: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+vue: DoubleSummaryStatistics{count=3, sum=0,000000, min=0,000000, average=0,000000, max=0,000000}
+remove row:
+angular: DoubleSummaryStatistics{count=3, sum=356,195000, min=117,849000, average=118,731667, max=119,439000}
+angular2: DoubleSummaryStatistics{count=3, sum=519,293000, min=162,210000, average=173,097667, max=179,754000}
+aurelia: DoubleSummaryStatistics{count=3, sum=607,946000, min=173,316000, average=202,648667, max=239,566000}
+ember/dist: DoubleSummaryStatistics{count=3, sum=403,238000, min=131,101000, average=134,412667, max=140,346000}
+mithril: DoubleSummaryStatistics{count=3, sum=483,586000, min=158,400000, average=161,195333, max=163,619000}
+ractive: DoubleSummaryStatistics{count=3, sum=857,903000, min=278,419000, average=285,967667, max=296,807000}
+react: DoubleSummaryStatistics{count=3, sum=331,104000, min=105,914000, average=110,368000, max=115,045000}
+vidom: DoubleSummaryStatistics{count=3, sum=298,774000, min=96,382000, average=99,591333, max=103,024000}
+vue: DoubleSummaryStatistics{count=3, sum=310,150000, min=100,638000, average=103,383333, max=106,603000}

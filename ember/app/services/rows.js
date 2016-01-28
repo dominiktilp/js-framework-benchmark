@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 function _random(max) {
-  return Math.round(Math.random()*1000)%max;
+  return Math.round(Math.random()*10000)%max;
 }
 
 var lastMeasure;
@@ -41,7 +41,7 @@ export default Ember.Service.extend({
   id: 1,
   init() {
   },
-  buildData(count = 1000) {
+  buildData(count = 10000) {
     var adjectives = ["pretty", "large", "big", "small", "tall", "short", "long", "handsome", "plain", "quaint", "clean", "elegant", "easy", "angry", "crazy", "helpful", "mushy", "odd", "unsightly", "adorable", "important", "inexpensive", "cheap", "expensive", "fancy"];
     var colours = ["red", "yellow", "blue", "green", "pink", "brown", "purple", "brown", "white", "black", "orange"];
     var nouns = ["table", "chair", "house", "bbq", "desk", "car", "pony", "cookie", "sandwich", "burger", "pizza", "mouse", "keyboard"];
@@ -81,7 +81,7 @@ export default Ember.Service.extend({
   },
   add() {
     startMeasure("add");
-    var newData = this.data.concat(this.buildData(10));
+    var newData = this.data.concat(this.buildData(100));
     this.set('data', newData);
     this.set('selected', undefined);
     stopMeasure();

@@ -5,7 +5,7 @@
 'use strict';
 
 function _random(max) {
-    return Math.round(Math.random()*1000)%max;
+    return Math.round(Math.random()*10000)%max;
 }
 
 // model
@@ -17,7 +17,7 @@ var Store = {
         const idx = this.data.findIndex(d => d.id==id);
         this.data.splice(idx, 1);
     },
-    buildData: function(count = 1000) {
+    buildData: function(count = 10000) {
         var adjectives = ["pretty", "large", "big", "small", "tall", "short", "long", "handsome", "plain", "quaint", "clean", "elegant", "easy", "angry", "crazy", "helpful", "mushy", "odd", "unsightly", "adorable", "important", "inexpensive", "cheap", "expensive", "fancy"];
         var colours = ["red", "yellow", "blue", "green", "pink", "brown", "purple", "brown", "white", "black", "orange"];
         var nouns = ["table", "chair", "house", "bbq", "desk", "car", "pony", "cookie", "sandwich", "burger", "pizza", "mouse", "keyboard"];
@@ -31,7 +31,7 @@ var Store = {
         this.selected = undefined;
     },
     update : function(mod=10) {
-        for (let i=0;i<this.data.length;i+=10) {
+        for (let i=0;i<this.data.length;i+=100) {
             this.data[i].label += '.';
         }
         /*for (let i=0;i<this.data.length;i+=10) {

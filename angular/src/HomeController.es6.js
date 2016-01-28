@@ -22,7 +22,7 @@ export default class HomeController {
         this.id = 1;
     }
 
-    buildData(count = 1000) {
+    buildData(count = 10000) {
         var adjectives = ["pretty", "large", "big", "small", "tall", "short", "long", "handsome", "plain", "quaint", "clean", "elegant", "easy", "angry", "crazy", "helpful", "mushy", "odd", "unsightly", "adorable", "important", "inexpensive", "cheap", "expensive", "fancy"];
         var colours = ["red", "yellow", "blue", "green", "pink", "brown", "purple", "brown", "white", "black", "orange"];
         var nouns = ["table", "chair", "house", "bbq", "desk", "car", "pony", "cookie", "sandwich", "burger", "pizza", "mouse", "keyboard"];
@@ -36,12 +36,12 @@ export default class HomeController {
         stopMeasure();
     }
     _random(max) {
-        return Math.round(Math.random() * 1000) % max;
+        return Math.round(Math.random() * 10000) % max;
     }
     add() {
         startMeasure("add");
         this.start = performance.now();
-        this.data = this.data.concat(this.buildData(10));
+        this.data = this.data.concat(this.buildData(100));
         this.printDuration();
     }
     select(item) {
